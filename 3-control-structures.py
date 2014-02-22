@@ -18,6 +18,7 @@ while (count >= 0):
    count = count - 1
 print 'Liftoff!'
 
+
 # for loop
 car_list = ['Honda', 'Ford', 'Buick']
 for car in car_list:
