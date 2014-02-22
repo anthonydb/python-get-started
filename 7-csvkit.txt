@@ -1,0 +1,27 @@
+# Using CSVkit with Python
+# http://csvkit.readthedocs.org/en/latest/
+
+# pip install csvkit
+
+# Examples
+
+# 1. check for errors: 
+csvclean -n counties.csv 
+
+# 2. inspect column names: 
+csvcut -n counties.csv
+
+# 3. cut just a few columns: 
+csvcut -c 1,2,6,7,10,11 counties.csv 
+
+# 4. do that and create a new file: 
+csvcut -c 1,2,6,7,10,11 counties.csv > counties_cut.csv
+
+# 5. find a county: 
+csvgrep -c 1 -m Loudoun counties_cut.csv 
+
+# 6. find with regex:
+csvgrep -c 1 -r ".*water" counties_cut.csv
+
+# 7. Create SQL Create Table statement:
+csvsql -i postgresql counties_cut.csv
