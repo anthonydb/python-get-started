@@ -15,12 +15,26 @@ Outline
 1-variables-data-structures.py
 ------------------------------
 
-llkj
+- Integers
+
+- Decimals 
+
+- Strings
+
+- Lists
+
+- Tuples
+
+- Dictionaries
+
 
 2-string-methods.py
 -------------------
 
-lklkj
+- Slicing
+
+- Mods
+
 
 3-control-structures.py
 -----------------------
