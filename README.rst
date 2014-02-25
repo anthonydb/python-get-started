@@ -4,8 +4,10 @@ python-get-started
 A collection of basic Python examples designed to get a student up and running on the language. 
 
 After you've tried these, check out:
+
 - The official Python docs: http://docs.python.org/2/
--- LearnPython.org: http://www.learnpython.org/
+
+- LearnPython.org: http://www.learnpython.org/
 
 Outline
 =======
