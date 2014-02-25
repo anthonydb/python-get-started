@@ -1,17 +1,18 @@
 # Regular expressions
 
 # . = any character
-# ^ beginning of line
-# $ end of line
-# * match 0 or more reps
-# + match 1 or more
-# \d match a digit {m} m times 
+# ^ match start of line
+# $ match end of line
+# * match 0 or more repetitions
+# + match 1 or more repetitions
+# \d match a digit {m} m times -- \d{1,2}
 # (|) either or
 # [] set of characters 
 # [^] characters not in set i.e. [^,]*
 
+# Help: http://regexone.com/
 
-# text to parse
+# Example text parsing
 import re
 
 text1 = 'Monday, June 4, 1997, 2:38 p.m.'
