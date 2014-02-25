@@ -1,18 +1,9 @@
-##########
-HTML example
+# Fetch and print web page contents
 
-<strong>Licensed MWt: </strong> 3,438 <br />
-<strong>Licensed MWt:</strong> 2,568<br />
-
-
-
-
-########
-Fetch and print web page contents
+import re
+import csv
 import requests
 from bs4 import BeautifulSoup
-import csv
-import re
 
 main_url = 'http://www.nrc.gov/reactors/operating/list-power-reactor-units.html'
 base_url = 'http://www.nrc.gov'
