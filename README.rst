@@ -39,29 +39,40 @@ Outline
 3-control-structures.py
 -----------------------
 
-asl;;aslk
+- if ... then ... else
+
+- while
+
+- for
+
 
 4-file-io.py
 ------------
 
-lklkj
+- Opening, reading from and writing to files
+
+- Bonus: Word frequency counter
+
 
 5-web-scraping.py
 -----------------
 
-lklkjlk
+- Using Requests and BeautifulSoup to fetch and parse a web page
+
 
 6-regular-expressions.py
 ------------------------
 
-lklkj
+- Parsing text with regular expessions
+
 
 6.1-regular-expressions-web-scrape.py
 -------------------------------------
 
-kljlkjl
+- Applying regular expressions to scraping nuclear reactor data
+
 
 7-csvkit.txt
 ------------
 
-lklkjaslk
+- Using the csvkit Python library to handle CSV files
