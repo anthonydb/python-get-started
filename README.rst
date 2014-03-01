@@ -13,7 +13,7 @@ After you've mastered these examples, also check out:
 
 - More Python snippets I find handy: https://github.com/anthonydb/python-snippets
 
-- A text-based game (introduces objects and advanced coding): https://github.com/anthonydb/python-snippets
+- Catch the Cat: A text-based game (introduces objects and advanced coding): https://github.com/anthonydb/catch-the-cat
 
 
 Outline

@@ -2,15 +2,6 @@
 # http://docs.python.org/2/library/stdtypes.html#string-methods
 
 
-# slicing strings
-#------------------------
-
-phone = '703-555-1212'
-print phone[0:3]
-print phone[4:7]
-print phone[8:]
-
-
 # modifying strings
 #-------------------------
 
@@ -27,7 +18,7 @@ print a.lower()
 print a.replace('Bob', 'Sue')
 
 # chain replacements
-print a.replace('Bob', 'Sue').replace('!', '')
+print a.replace('Sue', 'Bob').replace('!', '')
 
 # split the string on spaces
 print a.split()
@@ -35,3 +26,14 @@ print a.split()
 # split a strong on commas
 b = 'Bob,Sue,,Mary,Steve'
 print b.split(',')
+
+
+# slicing strings
+#------------------------
+
+phone = '703-555-1212'
+print phone[0:3]
+print phone[4:7]
+print phone[8:]
+
+
