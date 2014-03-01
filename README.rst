@@ -3,11 +3,18 @@ python-get-started
 
 A collection of basic Python examples designed to get a student up and running on the language. 
 
-After you've tried these, check out:
+More tutorials and documentation:
 
 - The official Python docs: http://docs.python.org/2/
 
 - LearnPython.org: http://www.learnpython.org/
+
+After you've mastered these examples, also check out:
+
+- More Python snippets I find handy: https://github.com/anthonydb/python-snippets
+
+- A text-based game (introduces objects and advanced coding): https://github.com/anthonydb/python-snippets
+
 
 Outline
 =======
