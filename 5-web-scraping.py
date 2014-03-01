@@ -1,4 +1,6 @@
 # Fetch and print web page contents
+# We're looking at the U.S. Nuclear Regulatory Commission
+# list of power reactor units
 
 import csv
 import requests
