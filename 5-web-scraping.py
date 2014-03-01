@@ -1,8 +1,8 @@
 # Fetch and print web page contents
 
+import csv
 import requests
 from bs4 import BeautifulSoup
-import csv
 
 url = 'http://www.nrc.gov/reactors/operating/list-power-reactor-units.html'
 
@@ -29,8 +29,7 @@ print t_link.get('href')
 
 # get table
 table = html_soup.find('table')
-for t in table:
-    print t.prettify()
+print table.prettify()
 
 
 # get all the rows

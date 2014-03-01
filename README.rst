@@ -79,7 +79,13 @@ Outline
 - Applying regular expressions to scraping nuclear reactor data
 
 
-7-csvkit.txt
+7-functions.py
+--------------
+
+- Creating functions
+
+
+8-csvkit.txt
 ------------
 
 - Using the csvkit Python library to handle CSV files
