@@ -1,4 +1,4 @@
-    # FILE Input/Output
+# FILE Input/Output
 # 'r' is reading, 'w' is writing (overwrites), 'a' is append
 
 
