@@ -15,6 +15,8 @@ After you've mastered these examples, also check out:
 
 - Catch the Cat: A text-based game (introduces objects and advanced coding): https://github.com/anthonydb/catch-the-cat
 
+- Tom Meagher's repo for the 2014 NICAR Python mini-bootcamp: https://github.com/tommeagher/pycar14
+
 
 Outline
 =======
