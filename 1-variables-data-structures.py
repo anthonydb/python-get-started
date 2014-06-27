@@ -24,11 +24,15 @@ print guy + ' has ' + str(pi) + ' days to eat ' + str(a) + ' donut.'
 
 # Lists (are mutable)
 
-# Create a list: 
+# Create a list:
 car_list = ['Honda', 'Ford', 'Buick']
 
 # Retrieve the first item:
 print car_list[0]
+
+# Sort the list, then print
+car_list.sort()
+print car_list
 
 # Retrieve the first two items (slicing)
 print car_list[0:2]
@@ -37,7 +41,6 @@ print car_list[0:2]
 car_list.append('Kia')
 car_list.remove('Honda')
 print car_list
-
 
 
 # Tuples (are immutable)
