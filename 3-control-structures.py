@@ -1,4 +1,4 @@
-# Control structures 
+# Control structures
 
 # if ... then ... else
 vote = 'No'
@@ -14,8 +14,8 @@ else:
 # while
 count = 10
 while (count >= 0):
-   print 'The count is: ' + str(count)
-   count = count - 1
+    print 'The count is: ' + str(count)
+    count = count - 1
 print 'Liftoff!'
 
 

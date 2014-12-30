@@ -53,5 +53,5 @@ with open('SOTU_2013.txt', 'r') as f:
 
 with open('word-count.txt', 'w') as f:
     for pair in counts:
-        out = pair[0] + ': ' + str(pair[1])  + '\n'
+        out = pair[0] + ': ' + str(pair[1]) + '\n'
         f.write(out)

@@ -35,5 +35,3 @@ phone = '703-555-1212'
 print phone[0:3]
 print phone[4:7]
 print phone[8:]
-
-

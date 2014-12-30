@@ -7,7 +7,7 @@
 # + match 1 or more repetitions
 # \d match a digit {m} m times -- \d{1,2}
 # (|) either or
-# [] set of characters 
+# [] set of characters
 # [^] characters not in set i.e. [^,]*
 
 # Help: http://regexone.com/
