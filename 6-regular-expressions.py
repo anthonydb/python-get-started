@@ -1,16 +1,23 @@
-# Regular expressions
+#!/usr/bin/env python
 
-# . = any character
-# ^ match start of line
-# $ match end of line
-# * match 0 or more repetitions
-# + match 1 or more repetitions
-# \d match a digit {m} m times -- \d{1,2}
-# (|) either or
-# [] set of characters
-# [^] characters not in set i.e. [^,]*
+"""
+Getting Started with Python:
+Regular Expressions
 
-# Help: http://regexone.com/
+. = any character
+^ match start of line
+$ match end of line
+* match 0 or more repetitions
++ match 1 or more repetitions
+\d match a digit {m} m times -- \d{1,2}
+\w match a word character (a-z, A-Z, 0-9, _)
+(|) either or
+[] set of characters
+[^] characters not in set i.e. [^,]*
+
+Help: http://regexone.com/
+
+"""
 
 # Example text parsing
 import re

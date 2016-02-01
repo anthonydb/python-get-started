@@ -1,4 +1,9 @@
-# Functions
+#!/usr/bin/env python
+
+"""
+Getting Started with Python:
+Functions
+"""
 
 
 # Add two numbers
@@ -6,7 +11,8 @@ def adder(a, b):
     result = a + b
     return result
 
-print adder(2, 1)
+result = adder(2, 1)
+print result
 
 
 # test string length
@@ -18,7 +24,7 @@ def max_string_length(string):
 
 a = 'baba ghanoush'
 
-if max_string_length(a) is True:
+if max_string_length(a):
     print 'String is too long'
 else:
-    print 'OK'
+    print 'String\'s OK'

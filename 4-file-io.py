@@ -1,5 +1,10 @@
-# FILE Input/Output
-# 'r' is reading, 'w' is writing (overwrites), 'a' is append
+#!/usr/bin/env python
+
+"""
+Getting Started with Python:
+FILE Input/Output
+Note: 'r' means reading, 'w' is writing (overwrites), 'a' is append
+"""
 
 
 # open a file for writing
@@ -39,10 +44,10 @@ with open('gettysburg.txt', 'r') as f:
 
 # Bonus! Count word frequency.
 # (Please, though, no word clouds ...)
+
 from collections import Counter
 
 words_list = []
-#with open('gettysburg.txt', 'r') as f:
 with open('SOTU_2013.txt', 'r') as f:
     for line in f:
         for x in line.split():

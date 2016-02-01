@@ -1,21 +1,27 @@
+#!/usr/bin/env python
+
+"""
+Getting Started with Python:
+Variables and Data Structures
+"""
+
 # Basic data types
 # ----------------
 
+# string
+nation = 'Portugal'
+
 # integer
-a = 1
-print a
+year = 2012
 
 # decimal
-pi = 3.14159
-print pi
-
-# string
-guy = 'Fred'
-print guy
+birth_rate = 1.28
 
 # Variables of different types can be
 # concatenated if cast as strings
-print guy + ' has ' + str(pi) + ' days to eat ' + str(a) + ' donut.'
+sentence = nation + ' had a birth rate of ' + str(birth_rate) + \
+    ' children per woman in ' + str(year) + '.'
+print sentence
 
 
 # Data structures
@@ -50,7 +56,6 @@ cars_tuple = ('Honda', 'Ford', 'Buick')
 
 # Retrieve the third item (note zero index)
 print cars_tuple[2]
-
 
 
 # Dictionaries

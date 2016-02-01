@@ -1,6 +1,13 @@
-# Fetch and print web page contents
-# We're looking at the U.S. Nuclear Regulatory Commission
-# list of power reactor units
+#!/usr/bin/env python
+
+"""
+Getting Started with Python:
+Web Scraping with Regular Expressions
+
+Fetch and print web page contents
+We're looking at the U.S. Nuclear Regulatory Commission
+list of power reactor units
+"""
 
 import re
 import csv
@@ -12,7 +19,7 @@ base_url = 'http://www.nrc.gov'
 
 # fetch the main page and run through BS4
 r = requests.get(main_url)
-html_soup = BeautifulSoup(r.text)
+html_soup = BeautifulSoup(r.text, 'html.parser')
 
 # output the columns as a CSV
 csvfile = open('reactors.csv', 'wb')

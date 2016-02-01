@@ -5,23 +5,29 @@
 
 # Examples
 
-# 1. check for errors: 
-csvclean -n counties.csv 
+# 1. check for errors:
+csvclean -n counties.csv
 
-# 2. inspect column names: 
+# 2. inspect column names:
 csvcut -n counties.csv
 
-# 3. cut just a few columns: 
-csvcut -c 1,2,6,7,10,11 counties.csv 
+# 3. cut just a few columns:
+csvcut -c 1,2,6,7,10,11 counties.csv
 
-# 4. do that and create a new file: 
+# 4. do that and create a new file:
 csvcut -c 1,2,6,7,10,11 counties.csv > counties_cut.csv
 
-# 5. find a county: 
-csvgrep -c 1 -m Loudoun counties_cut.csv 
+# 5. find a county:
+csvgrep -c 1 -m Loudoun counties_cut.csv
 
 # 6. find with regex:
 csvgrep -c 1 -r ".*water" counties_cut.csv
 
-# 7. Create SQL Create Table statement:
+# 7. Make a SQL Create Table statement:
 csvsql -i postgresql counties_cut.csv
+
+# 8. Load a csv straight into Postgres:
+csvsql -e Latin-1 --db postgresql:///database_name --table table_name --insert file-name.csv
+
+# 9. Stats on a csv
+csvstat -e counties_cut.csv

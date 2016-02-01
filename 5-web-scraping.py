@@ -1,6 +1,13 @@
-# Fetch and print web page contents
-# We're looking at the U.S. Nuclear Regulatory Commission
-# list of power reactor units
+#!/usr/bin/env python
+
+"""
+Getting Started with Python:
+Web Scraping
+
+Fetch and print web page contents
+We're looking at the U.S. Nuclear Regulatory Commission's
+list of power reactor units
+"""
 
 import csv
 import requests
@@ -9,9 +16,8 @@ from bs4 import BeautifulSoup
 url = 'http://www.nrc.gov/reactors/operating/list-power-reactor-units.html'
 
 r = requests.get(url)
-html_soup = BeautifulSoup(r.text)
+html_soup = BeautifulSoup(r.text, 'html.parser')
 print html_soup.prettify().encode('UTF-8')
-
 
 # find all links on the page and print first 20
 links = html_soup.find_all('a')
@@ -76,8 +82,7 @@ for row in table.find_all('tr')[1:]:
         owner = col[3].string.encode('Latin')
     region = col[4].string
 
-    parsed_row = (link, reactor_name, reactor_type,
-                  location, owner, region)
+    parsed_row = (link, reactor_name, reactor_type, location, owner, region)
 
     csvwriter.writerow(parsed_row)
 

@@ -1,4 +1,9 @@
-# Control structures
+#!/usr/bin/env python
+
+"""
+Getting Started with Python:
+Control structures
+"""
 
 # if ... then ... else
 vote = 'No'
