@@ -24,7 +24,7 @@ print a.lower()
 print a.replace('Bob', 'Sue')
 
 # chain replacements
-print a.replace('Sue', 'Bob').replace('!', '')
+print a.replace('Sue', 'Bob').replace('!', '?')
 
 # split the string on spaces
 print a.split()
