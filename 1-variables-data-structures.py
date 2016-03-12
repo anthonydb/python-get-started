@@ -9,18 +9,18 @@ Variables and Data Structures
 # ----------------
 
 # string
-nation = 'Portugal'
+nation = 'United States'
 
 # integer
-year = 2012
+year = 2013
 
 # decimal
-birth_rate = 1.28
+birth_rate = 12.4
 
 # Variables of different types can be
 # concatenated if cast as strings
-sentence = nation + ' had a birth rate of ' + str(birth_rate) + \
-    ' children per woman in ' + str(year) + '.'
+sentence = 'The ' + nation + ' had a birth rate of ' + str(birth_rate) + \
+    ' per thousand population in ' + str(year) + '.'
 print sentence
 
 
