@@ -5,7 +5,7 @@ A collection of basic Python examples designed to get a student up and running o
 
 More tutorials and documentation:
 
-- The official Python docs: http://docs.python.org/2/
+- The official Python docs: https://www.python.org/doc/
 
 - LearnPython.org: http://www.learnpython.org/
 
