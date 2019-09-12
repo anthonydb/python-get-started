@@ -12,7 +12,7 @@ def adder(a, b):
     return result
 
 result = adder(2, 1)
-print result
+print(result)
 
 
 # test string length
@@ -25,6 +25,6 @@ def max_string_length(string):
 a = 'baba ghanoush'
 
 if max_string_length(a):
-    print 'String is too long'
+    print('String is too long')
 else:
-    print 'String\'s OK'
+    print('String\'s OK')

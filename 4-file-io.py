@@ -16,21 +16,20 @@ with open('myfile.txt', 'a') as f:
 
 # open a file for reading; print all lines
 with open('gettysburg.txt', 'r') as f:
-    print f
     for line in f:
-        print line
+        print(line)
 
 
 # open a file for reading; print first line
 with open('gettysburg.txt', 'r') as f:
     line = f.readline()
-    print line
+    print(line)
 
 
 # read a line and split it into a list
 with open('gettysburg.txt', 'r') as f:
     line = f.readline().split()
-    print line
+    print(line)
 
 
 # get all the words into a list
@@ -39,7 +38,7 @@ with open('gettysburg.txt', 'r') as f:
     for line in f:
         for x in line.split():
             words_list.append(x.lower())
-    print words_list
+    print(words_list)
 
 
 # Bonus! Count word frequency.

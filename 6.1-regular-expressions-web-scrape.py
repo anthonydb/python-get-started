@@ -22,7 +22,7 @@ r = requests.get(main_url)
 html_soup = BeautifulSoup(r.text, 'html.parser')
 
 # output the columns as a CSV
-csvfile = open('reactors.csv', 'wb')
+csvfile = open('reactors.csv', 'w')
 csvwriter = csv.writer(csvfile, delimiter=',')
 
 # create headers for the CSV
@@ -46,7 +46,7 @@ for row in table.find_all('tr')[1:]:
     region = col[4].string
 
     # follow the hyperlink for the reactor to the detail page
-    print 'Following ' + link
+    print('Following ' + link)
     r_follow = requests.get(base_url + link)
 
     # regex search to pull mega watts data

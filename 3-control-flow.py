@@ -9,22 +9,22 @@ Control structures
 vote = 'No'
 
 if vote == 'Yes':
-    print 'The vote is Yes'
+    print('The vote is Yes')
 elif vote == 'No':
-    print 'The vote is No'
+    print('The vote is No')
 else:
-    print 'It\'s some other vote'
+    print('It\'s some other vote')
 
 
 # while
 count = 10
 while (count >= 0):
-    print 'The count is: ' + str(count)
+    print('The count is: ' + str(count))
     count = count - 1
-print 'Liftoff!'
+print('Liftoff!')
 
 
-# for loop
+# for statement
 car_list = ['Honda', 'Ford', 'Buick']
 for car in car_list:
-    print car
+    print(car)

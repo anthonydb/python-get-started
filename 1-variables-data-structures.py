@@ -21,7 +21,7 @@ birth_rate = 12.4
 # concatenated if cast as strings
 sentence = 'The ' + nation + ' had a birth rate of ' + str(birth_rate) + \
     ' per thousand population in ' + str(year) + '.'
-print sentence
+print(sentence)
 
 
 # Data structures
@@ -34,19 +34,19 @@ print sentence
 car_list = ['Honda', 'Ford', 'Buick']
 
 # Retrieve the first item:
-print car_list[0]
+print(car_list[0])
 
 # Sort the list, then print
 car_list.sort()
-print car_list
+print(car_list)
 
 # Retrieve the first two items (slicing)
-print car_list[0:2]
+print(car_list[0:2])
 
 # Add and remove items from the list
 car_list.append('Kia')
 car_list.remove('Honda')
-print car_list
+print(car_list)
 
 
 # Tuples (are immutable)
@@ -55,7 +55,7 @@ print car_list
 cars_tuple = ('Honda', 'Ford', 'Buick')
 
 # Retrieve the third item (note zero index)
-print cars_tuple[2]
+print(cars_tuple[2])
 
 
 # Dictionaries
@@ -64,8 +64,8 @@ print cars_tuple[2]
 cars_dict = {'make': 'Honda', 'year': 2010, 'color': 'Silver'}
 
 # Retrieve the value for the key 'year'
-print cars_dict['year']
+print(cars_dict['year'])
 
 # Set a new value for the key 'year'
 cars_dict['year'] = 2013
-print cars_dict['year']
+print(cars_dict['year'])
